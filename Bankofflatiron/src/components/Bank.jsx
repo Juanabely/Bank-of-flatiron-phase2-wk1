@@ -7,7 +7,7 @@ function Bank() {
   const [transactions, setTransactions] = useState([]);
   const [search, setSearch] = useState("");
 
-  const URL = "http://localhost:8080/transactions";
+  const URL = "http://localhost:3000/transactions";
   useEffect(() => {
     async function fetchTransactions() {
       try {
