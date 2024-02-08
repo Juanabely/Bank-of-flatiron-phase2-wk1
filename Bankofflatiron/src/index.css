@@ -1,5 +1,6 @@
 .transaction {
   width: 100%;
+  border-collapse: collapse; /* Added to remove spacing between table cells */
 }
 
 .transaction td,
@@ -11,13 +12,16 @@
 .transaction tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
 .transaction tr:hover {
   background-color: #ddd;
 }
+
 .transaction th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #0c0e0d;
+  background-color: #ff5733; /* Changed color to orange */
   color: white;
+  font-weight: bold; /* Added to make the header text bold */
 }
